@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+
+  service:
+    build: .
+    image: ctftraing/paseca_2019_flask_ssti
+    ports:
+        - 8470:1337
